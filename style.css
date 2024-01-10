@@ -1,11 +1,13 @@
-.text_color{
+.text_color {
     color: var(--blue);
 }
-.cards:hover h5{
-    color: white;
-}
 
-.cards:hover{
+.cards:hover {
     background-color: var(--orange);
     transition: all 0.5s;
+}
+
+.select_btn {
+    margin-top: 20px;
+    box-shadow: 0px 0px 11px 0px rgba(207, 207, 207, 0.75);
 }
